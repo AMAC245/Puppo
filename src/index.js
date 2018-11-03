@@ -1,3 +1,10 @@
 import './styles/style.scss';
 
-console.log('puppo')
+import { componentState } from './modules/state';
+
+const state = componentState;
+
+console.log(state.getState())
+
+
+
